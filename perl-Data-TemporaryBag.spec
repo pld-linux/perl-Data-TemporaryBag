@@ -10,6 +10,7 @@ Summary(pl):	Data::TemporaryBag - obs³uga danych o du¿ym rozmiarze przy pomocy p
 Name:		perl-Data-TemporaryBag
 Version:	0.08
 Release:	0.2
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
