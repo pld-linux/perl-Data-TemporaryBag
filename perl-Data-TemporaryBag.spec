@@ -5,7 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	TemporaryBag
-Summary:	Data::TemporaryBag - Handle long size data using temporary file.
+Summary:	Data::TemporaryBag - handle long size data using temporary file
+Summary(pl):	Data::TemporaryBag - obs³uga danych o du¿ym rozmiarze przy pomocy pliku tymczasowego
 Name:		perl-Data-TemporaryBag
 Version:	0.08
 Release:	0.2
@@ -17,19 +18,22 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoreq	'perl(anything_fake_or_conditional)'
-
 %description
 Data::TemporaryBag module provides a bag object class handling long
 size data. The short size data are kept on memory. When the data size
 becomes over $Threshold size, they are saved into a temporary file
 internally.
 
+%description -l pl
+Modu³ Data::TemporaryBAg dostarcza klasê obiektu torby obs³uguj±c±
+dane o du¿ym rozmiarze. Dane o ma³ym rozmiarze s± przechowywane w
+pamiêci. Kiedy rozmiar danych przekracza $Threshold, s± one zapisywane
+wewnêtrznie do pliku tymczasowego.
+
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-# Don't use pipes here: they generally don't work. Apply a patch.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 
@@ -52,7 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-# use macros:
-%{perl_vendorlib}/*
-%{perl_vendorarch}/*
+%{perl_vendorlib}/FIXME*
+%{perl_vendorarch}/FIXME*
 %{_mandir}/man3/*
