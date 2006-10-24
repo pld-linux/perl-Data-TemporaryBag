@@ -8,13 +8,13 @@
 Summary:	Data::TemporaryBag - handle long size data using temporary file
 Summary(pl):	Data::TemporaryBag - obs³uga danych o du¿ym rozmiarze przy pomocy pliku tymczasowego
 Name:		perl-Data-TemporaryBag
-Version:	0.08
-Release:	0.2
+Version:	0.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b677da9db9abdb1ff996e56ddb28dacc
+# Source0-md5:	a0045c0cc1fe92dd54ead9a682a83f08
 URL:		http://search.cpan.org/dist/Data-TemporaryBag/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
