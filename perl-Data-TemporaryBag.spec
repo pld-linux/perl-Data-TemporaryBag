@@ -6,7 +6,7 @@
 %define	pdir	Data
 %define	pnam	TemporaryBag
 Summary:	Data::TemporaryBag - handle long size data using temporary file
-Summary(pl):	Data::TemporaryBag - obs³uga danych o du¿ym rozmiarze przy pomocy pliku tymczasowego
+Summary(pl.UTF-8):   Data::TemporaryBag - obsÅ‚uga danych o duÅ¼ym rozmiarze przy pomocy pliku tymczasowego
 Name:		perl-Data-TemporaryBag
 Version:	0.09
 Release:	1
@@ -27,11 +27,11 @@ size data. The short size data are kept on memory. When the data size
 becomes over $Threshold size, they are saved into a temporary file
 internally.
 
-%description -l pl
-Modu³ Data::TemporaryBAg dostarcza klasê obiektu torby obs³uguj±c±
-dane o du¿ym rozmiarze. Dane o ma³ym rozmiarze s± przechowywane w
-pamiêci. Kiedy rozmiar danych przekracza $Threshold, s± one zapisywane
-wewnêtrznie do pliku tymczasowego.
+%description -l pl.UTF-8
+ModuÅ‚ Data::TemporaryBAg dostarcza klasÄ™ obiektu torby obsÅ‚ugujÄ…cÄ…
+dane o duÅ¼ym rozmiarze. Dane o maÅ‚ym rozmiarze sÄ… przechowywane w
+pamiÄ™ci. Kiedy rozmiar danych przekracza $Threshold, sÄ… one zapisywane
+wewnÄ™trznie do pliku tymczasowego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
