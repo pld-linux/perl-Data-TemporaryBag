@@ -6,7 +6,7 @@
 %define	pdir	Data
 %define	pnam	TemporaryBag
 Summary:	Data::TemporaryBag - handle long size data using temporary file
-Summary(pl.UTF-8):   Data::TemporaryBag - obsługa danych o dużym rozmiarze przy pomocy pliku tymczasowego
+Summary(pl.UTF-8):	Data::TemporaryBag - obsługa danych o dużym rozmiarze przy pomocy pliku tymczasowego
 Name:		perl-Data-TemporaryBag
 Version:	0.09
 Release:	1
