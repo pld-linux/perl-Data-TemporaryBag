@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	TemporaryBag
 Summary:	Data::TemporaryBag - handle long size data using temporary file
